@@ -1,0 +1,26 @@
+Processes Loaded:
+PID: 1, Arrival Time: 0, Burst Time: 5, Priority: 2
+PID: 2, Arrival Time: 2, Burst Time: 3, Priority: 1
+PID: 3, Arrival Time: 4, Burst Time: 2, Priority: 3
+
+First-Come, First-Served (FCFS) Scheduling:        
+Gantt Chart: | P1 | P2 | P3 | 
+0       5       8       10
+
+Processes Stats:
+PID: 1 | WT: 0 | TAT: 5
+PID: 2 | WT: 3 | TAT: 6
+PID: 3 | WT: 4 | TAT: 6
+Average WT: 2.3333333333333335
+Average TAT: 5.666666666666667
+
+Priority Scheduling:
+Gantt Chart: | P1 | P2 | P3 |
+0       5       8       10
+
+Processes Stats:
+PID: 1 | WT: 0 | TAT: 5
+PID: 2 | WT: 3 | TAT: 6
+PID: 3 | WT: 4 | TAT: 6
+Average WT: 2.3333333333333335
+Average TAT: 5.666666666666667
